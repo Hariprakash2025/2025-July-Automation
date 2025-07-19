@@ -2,7 +2,7 @@
 
 **follow below two steps:-**
 
-**1.**jmeter.properties file
+1.jmeter.properties file
 
 update this line 
 
@@ -10,7 +10,7 @@ jmeter.save.saveservice.autoflush=true
 
 *This will help reduce high memory issue*
 
-**2.**jmeter -l results_$(date +%H).jtl
+2.jmeter -l results_$(date +%H).jtl
 
 
 ****Last Updated  23:33  19/07/2025
